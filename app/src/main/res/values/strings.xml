@@ -1,0 +1,4 @@
+<resources>
+   <string name="app_name">Disable Safe Volume</string>
+   <string name="xposed_description">Stop the volume from being automatically adjusted to "safe" levels</string>
+</resources>

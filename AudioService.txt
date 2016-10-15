@@ -1,0 +1,473 @@
+
+10-10 21:39:13.502 2196-2196/? I/Xposed: handleLoadPackage: android
+10-10 21:39:13.503 2196-2196/? I/Xposed: Class: com.android.server.audio.AudioService
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: abandonAudioFocus(interface android.media.IAudioFocusDispatcher, class java.lang.String, class android.media.AudioAttributes)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: addMediaPlayerAndUpdateRemoteController(class java.lang.String)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: adjustStreamVolume(int, int, int, class java.lang.String)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: adjustSuggestedStreamVolume(int, int, int, class java.lang.String, class java.lang.String)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: avrcpSupportsAbsoluteVolume(class java.lang.String, boolean)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: checkAudioSettingsPermission(class java.lang.String)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: clearAllScoClients(int, boolean)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: disableSafeMediaVolume(class java.lang.String)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: dump(class java.io.FileDescriptor, class java.io.PrintWriter, class [Ljava.lang.String;)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: forceRemoteSubmixFullVolume(boolean, interface android.os.IBinder)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: forceVolumeControlStream(int, interface android.os.IBinder)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: getAudioFocusState()
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: getCurrentAudioFocus()
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: getCurrentStreamType(int)
+10-10 21:39:13.509 2196-2196/? I/Xposed:   Method: getLastAudibleStreamVolume(int)
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getMode()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getRemoteControlClientNowPlayingEntries()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getRingerModeExternal()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getRingerModeInternal()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getRingtonePlayer()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getStreamMaxVolume(int)
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getStreamMinVolume(int)
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getStreamVolume(int)
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getUiSoundsStreamType()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: getVibrateSetting(int)
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: isBluetoothA2dpOn()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: isBluetoothScoOn()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: isCameraSoundForced()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: isHdmiSystemAudioSupported()
+10-10 21:39:13.510 2196-2196/? I/Xposed:   Method: isMasterMute()
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: isSpeakerphoneOn()
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: isStreamAffectedByMute(int)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: isStreamAffectedByRingerMode(int)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: isStreamMute(int)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: isValidRingerMode(int)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: loadSoundEffects()
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: notifyVolumeControllerVisible(interface android.media.IVolumeController, boolean)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: onIndicateSystemReady()
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: onMediaServerDied()
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: onSystemReady()
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: playSoundEffect(int)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: playSoundEffectVolume(int, float)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: registerAudioPolicy(class android.media.audiopolicy.AudioPolicyConfig, interface android.media.audiopolicy.IAudioPolicyCallback, boolean)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: registerRemoteControlDisplay(interface android.media.IRemoteControlDisplay, int, int)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: registerRemoteController(interface android.media.IRemoteControlDisplay, int, int, class android.content.ComponentName)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: reloadAudioSettings()
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: remoteControlDisplayUsesBitmapSize(interface android.media.IRemoteControlDisplay, int, int)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: remoteControlDisplayWantsPlaybackPositionSync(interface android.media.IRemoteControlDisplay, boolean)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: removeMediaPlayerAndUpdateRemoteController(class java.lang.String)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: requestAudioFocus(class android.media.AudioAttributes, int, interface android.os.IBinder, interface android.media.IAudioFocusDispatcher, class java.lang.String, class java.lang.String, int, interface android.media.audiopolicy.IAudioPolicyCallback)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: setBluetoothA2dpDeviceConnectionState(class android.bluetooth.BluetoothDevice, int, int)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: setBluetoothA2dpOn(boolean)
+10-10 21:39:13.511 2196-2196/? I/Xposed:   Method: setBluetoothA2dpOnInt(boolean)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setBluetoothScoOn(boolean)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setBluetoothScoOnInt(boolean)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setBtScoDeviceConnectionState(class android.bluetooth.BluetoothDevice, int)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setFocusPropertiesForPolicy(int, interface android.media.audiopolicy.IAudioPolicyCallback)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setHdmiSystemAudioSupported(boolean)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setMasterMute(boolean, int, class java.lang.String, int)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setMicrophoneMute(boolean, class java.lang.String, int)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setMode(int, interface android.os.IBinder, class java.lang.String)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setParameters(class java.lang.String)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setRemoteControlClientBrowsedPlayer()
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setRemoteControlClientPlayItem(long, int)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setRemoteStreamVolume(int)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setRingerModeExternal(int, class java.lang.String)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setRingerModeInternal(int, class java.lang.String)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setRingtonePlayer(interface android.media.IRingtonePlayer)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setSpeakerphoneOn(boolean)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setStreamVolume(int, int, int, class java.lang.String)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setVibrateSetting(int, int)
+10-10 21:39:13.512 2196-2196/? I/Xposed:   Method: setVolumeController(interface android.media.IVolumeController)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: setVolumePolicy(class android.media.VolumePolicy)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: setWiredDeviceConnectionState(int, int, class java.lang.String, class java.lang.String, class java.lang.String)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: shouldVibrate(int)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: startBluetoothSco(interface android.os.IBinder, int)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: startBluetoothScoInt(interface android.os.IBinder, int)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: startBluetoothScoVirtualCall(interface android.os.IBinder)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: startWatchingRoutes(interface android.media.IAudioRoutesObserver)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: stopBluetoothSco(interface android.os.IBinder)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: systemReady()
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: unloadSoundEffects()
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: unregisterAudioFocusClient(class java.lang.String)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: unregisterAudioPolicyAsync(interface android.media.audiopolicy.IAudioPolicyCallback)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: unregisterRemoteControlDisplay(interface android.media.IRemoteControlDisplay)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: updateRemoteControllerOnExistingMediaPlayers()
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$000(class com.android.server.audio.AudioService)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$002(class com.android.server.audio.AudioService, class com.android.server.audio.AudioService$AudioHandler)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$100(class android.os.Handler, int, int, int, int, class java.lang.Object, int)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$1000(class com.android.server.audio.AudioService)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$1100(class com.android.server.audio.AudioService)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$1102(class com.android.server.audio.AudioService, class com.android.server.audio.AudioService$ForceControlStreamClient)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$1202(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$1400(class com.android.server.audio.AudioService)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$1500(class com.android.server.audio.AudioService, int, interface android.os.IBinder, int, class java.lang.String)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$1600(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.513 2196-2196/? I/Xposed:   Method: access$1800(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$1802(class com.android.server.audio.AudioService, class android.os.Looper)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$1900(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2000(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2002(class com.android.server.audio.AudioService, class android.media.SoundPool)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2100(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2102(class com.android.server.audio.AudioService, class com.android.server.audio.AudioService$SoundPoolCallback)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2300(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2400(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2500(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2600(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2602(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2700(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2702(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2800(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2802(class com.android.server.audio.AudioService, class android.bluetooth.BluetoothDevice)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$2900(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3000(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3002(class com.android.server.audio.AudioService, class android.bluetooth.BluetoothHeadset)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3100(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3200(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3300(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3400(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3402(class com.android.server.audio.AudioService, class android.bluetooth.BluetoothA2dp)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3500(class com.android.server.audio.AudioService)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3600(class com.android.server.audio.AudioService, int, int)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3700(class com.android.server.audio.AudioService, class android.os.Handler, int, int, int, class java.lang.Object, int)
+10-10 21:39:13.514 2196-2196/? I/Xposed:   Method: access$3800(class com.android.server.audio.AudioService, class java.lang.String, int)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$3900(class com.android.server.audio.AudioService, class java.lang.String)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4000()
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4100()
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4200(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4300(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4400(class com.android.server.audio.AudioService, class android.content.Intent)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4500(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4600(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4700(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4800(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$4900(class com.android.server.audio.AudioService, int, int, int)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5000(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5100(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5300(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5400(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5500(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5600(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5602(class com.android.server.audio.AudioService, class com.android.server.audio.AudioService$SoundPoolListenerThread)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5700()
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5800(class com.android.server.audio.AudioService)
+10-10 21:39:13.515 2196-2196/? I/Xposed:   Method: access$5900()
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$6100(class com.android.server.audio.AudioService, int, int)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$6200(class com.android.server.audio.AudioService, class java.lang.String)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$6300(class com.android.server.audio.AudioService)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$6400(class com.android.server.audio.AudioService, int, int, class java.lang.String, class java.lang.String, class java.lang.String)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$6500(class com.android.server.audio.AudioService)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$6600(class com.android.server.audio.AudioService, class android.bluetooth.BluetoothDevice, int)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$6700(class com.android.server.audio.AudioService, class android.bluetooth.BluetoothDevice, int)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$6800(class com.android.server.audio.AudioService, class java.lang.String)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$6900(class com.android.server.audio.AudioService)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7000(class com.android.server.audio.AudioService, boolean, class java.lang.String)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7100(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7200(class com.android.server.audio.AudioService, int, int)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7300(class com.android.server.audio.AudioService, class java.lang.String, int)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7400(class com.android.server.audio.AudioService)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7500(class com.android.server.audio.AudioService)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7600(class com.android.server.audio.AudioService, int, boolean)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7700(class com.android.server.audio.AudioService, class android.content.ContentResolver)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7800(class com.android.server.audio.AudioService)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7802(class com.android.server.audio.AudioService, int)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$7900(class com.android.server.audio.AudioService, class android.content.Intent)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$8000(class com.android.server.audio.AudioService)
+10-10 21:39:13.516 2196-2196/? I/Xposed:   Method: access$8100(class com.android.server.audio.AudioService, class android.content.Context)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$8200(class com.android.server.audio.AudioService)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$8300(class com.android.server.audio.AudioService, boolean)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$8400(class com.android.server.audio.AudioService, class android.content.pm.UserInfo)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$8500(class com.android.server.audio.AudioService)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$8600(class com.android.server.audio.AudioService)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$8602(class com.android.server.audio.AudioService, boolean)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$8700(class com.android.server.audio.AudioService)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$9000(class com.android.server.audio.AudioService)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$9100(class com.android.server.audio.AudioService)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$9102(class com.android.server.audio.AudioService, interface android.media.AudioManagerInternal$RingerModeDelegate)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$9200(class com.android.server.audio.AudioService, int, int, int, class java.lang.String, class java.lang.String, int)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$9300(class com.android.server.audio.AudioService, int, int, int, class java.lang.String, class java.lang.String, int)
+10-10 21:39:13.517 2196-2196/? I/Xposed:   Method: access$9400(class com.android.server.audio.AudioService, int, int, int, class java.lang.String, class java.lang.String, int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: access$9500(class com.android.server.audio.AudioService)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: access$9608(class com.android.server.audio.AudioService)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: access$9700(class com.android.server.audio.AudioService)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: access$9800(class com.android.server.audio.AudioService)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: adjustStreamVolume(int, int, int, class java.lang.String, class java.lang.String, int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: adjustSuggestedStreamVolume(int, int, int, class java.lang.String, class java.lang.String, int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: broadcastMasterMuteStatus(boolean)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: broadcastRingerMode(class java.lang.String, int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: broadcastScoConnectionState(int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: broadcastVibrateSetting(int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: cancelA2dpDeviceTimeout()
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: checkAllAliasStreamVolumes()
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: checkAllFixedVolumeDevices()
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: checkAllFixedVolumeDevices(int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: checkForRingerModeChange(int, int, int, boolean)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: checkMuteAffectedStreams()
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: checkSafeMediaVolume(int, int, int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: checkScoAudioState()
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: checkSendBecomingNoisyIntent(int, int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: checkSoundRegulation()
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: configureHdmiPlugIntent(class android.content.Intent, int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: createAudioSystemThread()
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: createStreamStates()
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: discardRmtSbmxFullVolDeathHandlerFor(interface android.os.IBinder)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: disconnectBluetoothSco(int)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: dumpAudioPolicies(class java.io.PrintWriter)
+10-10 21:39:13.518 2196-2196/? I/Xposed:   Method: dumpRingerMode(class java.io.PrintWriter)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: dumpRingerModeStreams(class java.io.PrintWriter, class java.lang.String, int)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: dumpStreamStates(class java.io.PrintWriter)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: enforceSafeMediaVolume(class java.lang.String)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: enforceVolumeController(class java.lang.String)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: ensureValidDirection(int)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: ensureValidRingerMode(int)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: ensureValidStreamType(int)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: getActiveStreamType(int)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: getBluetoothHeadset()
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: getCurrentUserId()
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: getDeviceForStream(int)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: getDevicesForStream(int)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: getDevicesForStream(int, boolean)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: getScoClient(interface android.os.IBinder, boolean)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: handleConfigurationChanged(class android.content.Context)
+10-10 21:39:13.519 2196-2196/? I/Xposed:   Method: handleDeviceConnection(boolean, int, class java.lang.String, class java.lang.String)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: hasRmtSbmxFullVolDeathHandlerFor(interface android.os.IBinder)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: hasScheduledA2dpDockTimeout()
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: isAfMusicActiveRecently(int)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: isInCommunication()
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: isMuteAdjust(int)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: isPlatformTelevision()
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: isPlatformVoice()
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: isStreamMutedByRingerMode(int)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: isStreamRoutedToWiredHeadset(int)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: killBackgroundUserProcessesWithRecordAudioPermission(class android.content.pm.UserInfo)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: loadTouchSoundAssetDefaults()
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: loadTouchSoundAssets()
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: makeA2dpDeviceAvailable(class java.lang.String, class java.lang.String)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: makeA2dpDeviceUnavailableLater(class java.lang.String, int)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: makeA2dpDeviceUnavailableNow(class java.lang.String)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: makeA2dpSrcAvailable(class java.lang.String)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: makeA2dpSrcUnavailable(class java.lang.String)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: makeAlsaAddressString(int, int)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: makeDeviceListKey(int, class java.lang.String)
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: muteRingerModeStreams()
+10-10 21:39:13.520 2196-2196/? I/Xposed:   Method: observeDevicesForStreams(int)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onBroadcastScoConnectionState(int)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onCheckMusicActive(class java.lang.String)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onConfigureSafeVolume(boolean, class java.lang.String)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onDynPolicyMixStateUpdate(class java.lang.String, int)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onSendBecomingNoisyIntent()
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onSetA2dpSinkConnectionState(class android.bluetooth.BluetoothDevice, int)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onSetA2dpSourceConnectionState(class android.bluetooth.BluetoothDevice, int)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onSetStreamVolume(int, int, int, int, class java.lang.String)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onSetWiredDeviceConnectionState(int, int, class java.lang.String, class java.lang.String, class java.lang.String)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: onUnmuteStream(int, int)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: queueMsgUnderWakeLock(class android.os.Handler, int, int, int, class java.lang.Object, int)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: readAndSetLowRamDevice()
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: readAudioSettings(boolean)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: readCameraSoundForced()
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: readDockAudioSettings(class android.content.ContentResolver)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: readPersistedSettings()
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: rescaleIndex(int, int, int)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: resetBluetoothSco()
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: safeMediaVolumeStateToString(class java.lang.Integer)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: saveMusicActiveMs()
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: sendBroadcastToAll(class android.content.Intent)
+10-10 21:39:13.521 2196-2196/? I/Xposed:   Method: sendDeviceConnectionIntent(int, int, class java.lang.String, class java.lang.String)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: sendMasterMuteUpdate(boolean, int)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: sendMsg(class android.os.Handler, int, int, int, int, class java.lang.Object, int)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: sendStickyBroadcastToAll(class android.content.Intent)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: sendVolumeUpdate(int, int, int, int)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: setForceUseInt_SyncDevices(int, int)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: setMasterMuteInternal(boolean, int, class java.lang.String, int, int)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: setModeInt(int, interface android.os.IBinder, int, class java.lang.String)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: setOrientationForAudioSystem()
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: setRingerMode(int, class java.lang.String, boolean)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: setRingerModeExt(int)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: setRingerModeInt(int, boolean)
+10-10 21:39:13.522 2196-2196/? I/Xposed:   Method: setSafeMediaVolumeEnabled(boolean, class java.lang.String)
+10-10 21:39:13.523 2196-2196/? I/Xposed:   Method: setStreamVolume(int, int, int, class java.lang.String, class java.lang.String, int)
+10-10 21:39:13.523 2196-2196/? I/Xposed:   Method: setStreamVolumeInt(int, int, int, boolean, class java.lang.String)
+10-10 21:39:13.523 2196-2196/? I/Xposed:   Method: setSystemAudioMute(boolean)
+10-10 21:39:13.523 2196-2196/? I/Xposed:   Method: setSystemAudioVolume(int, int, int, int)
+10-10 21:39:13.523 2196-2196/? I/Xposed:   Method: updateFlagsForSystemAudio(int)
+10-10 21:39:13.523 2196-2196/? I/Xposed:   Method: updateRingerModeAffectedStreams()
+10-10 21:39:13.523 2196-2196/? I/Xposed:   Method: updateStreamVolumeAlias(boolean, class java.lang.String)
+10-10 21:39:13.523 2196-2196/? I/Xposed:   Method: waitForAudioHandlerCreation()
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: [[I SOUND_EFFECT_FILES_MAP
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: [I STREAM_VOLUME_ALIAS_DEFAULT
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: [I STREAM_VOLUME_ALIAS_TELEVISION
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: [I STREAM_VOLUME_ALIAS_VOICE
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: android.bluetooth.BluetoothA2dp mA2dp
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: java.lang.Object mA2dpAvrcpLock
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: java.lang.String mA2dpConnectedDevice
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: android.app.AppOpsManager mAppOps
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: android.os.PowerManager$WakeLock mAudioEventWakeLock
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$AudioHandler mAudioHandler
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: java.util.HashMap mAudioPolicies
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: int mAudioPolicyCounter
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: android.media.AudioSystem$ErrorCallback mAudioSystemCallback
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$AudioSystemThread mAudioSystemThread
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: boolean mAvrcpAbsVolSupported
+10-10 21:39:13.524 2196-2196/? I/Xposed:   Field: int mBecomingNoisyIntentDevices
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: boolean mBluetoothA2dpEnabled
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: java.lang.Object mBluetoothA2dpEnabledLock
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: android.bluetooth.BluetoothHeadset mBluetoothHeadset
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: android.bluetooth.BluetoothDevice mBluetoothHeadsetDevice
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: android.bluetooth.BluetoothProfile$ServiceListener mBluetoothProfileServiceListener
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: java.lang.Boolean mCameraSoundForced
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: java.util.ArrayList mConnectedBTDevicesList
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: android.util.ArrayMap mConnectedDevices
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: android.content.ContentResolver mContentResolver
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: android.content.Context mContext
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$ControllerService mControllerService
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: android.media.AudioRoutesInfo mCurAudioRoutes
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: int mDeviceOrientation
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: java.lang.String mDockAddress
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: boolean mDockAudioMediaEnabled
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: int mDockState
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: android.media.AudioSystem$DynamicPolicyCallback mDynPolicyCallback
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: int mFixedVolumeDevices
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$ForceControlStreamClient mForceControlStreamClient
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: java.lang.Object mForceControlStreamLock
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: int mForcedUseForComm
+10-10 21:39:13.525 2196-2196/? I/Xposed:   Field: int mFullVolumeDevices
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: boolean mHasVibrator
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: boolean mHdmiCecSink
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$MyDisplayStatusCallback mHdmiDisplayStatusCallback
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: android.hardware.hdmi.HdmiControlManager mHdmiManager
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: android.hardware.hdmi.HdmiPlaybackClient mHdmiPlaybackClient
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: boolean mHdmiSystemAudioSupported
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: android.hardware.hdmi.HdmiTvClient mHdmiTvClient
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: android.app.KeyguardManager mKeyguardManager
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: long mLoweredFromNormalToVibrateTime
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mMcc
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: com.android.server.audio.MediaFocusControl mMediaFocusControl
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mMode
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: boolean mMonitorOrientation
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: boolean mMonitorRotation
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mMusicActiveMs
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mMuteAffectedStreams
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$StreamVolumeCommand mPendingVolumeCommand
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mPlatformType
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mPrevVolDirection
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: android.content.BroadcastReceiver mReceiver
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mRingerMode
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mRingerModeAffectedStreams
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: android.media.AudioManagerInternal$RingerModeDelegate mRingerModeDelegate
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mRingerModeExternal
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mRingerModeMutedStreams
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: android.media.IRingtonePlayer mRingtonePlayer
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: java.util.ArrayList mRmtSbmxFullVolDeathHandlers
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mRmtSbmxFullVolRefCount
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: android.os.RemoteCallbackList mRoutesObservers
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mSafeMediaVolumeDevices
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mSafeMediaVolumeIndex
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: java.lang.Integer mSafeMediaVolumeState
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mScoAudioMode
+10-10 21:39:13.526 2196-2196/? I/Xposed:   Field: int mScoAudioState
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: java.util.ArrayList mScoClients
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: int mScoConnectionState
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: java.util.ArrayList mSetModeDeathHandlers
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: java.lang.Object mSettingsLock
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$SettingsObserver mSettingsObserver
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: java.lang.Object mSoundEffectsLock
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: android.media.SoundPool mSoundPool
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$SoundPoolCallback mSoundPoolCallBack
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$SoundPoolListenerThread mSoundPoolListenerThread
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: android.os.Looper mSoundPoolLooper
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: boolean mSoundRegulation
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: [Lcom.android.server.audio.AudioService$VolumeStreamState; mStreamStates
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: [I mStreamVolumeAlias
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: boolean mSystemReady
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: boolean mUseFixedVolume
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: int mVibrateSetting
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: int mVolumeControlStream
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: com.android.server.audio.AudioService$VolumeController mVolumeController
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: android.media.VolumePolicy mVolumePolicy
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: java.lang.String ACTION_AUDIO_SETTINGS_UPDATED_WITH_USER_SWTICH
+10-10 21:39:13.527 2196-2196/? I/Xposed:   Field: java.lang.String ACTION_EXTERNAL_STEREO_MIC_PLUG
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String ASSET_FILE_VERSION
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String ATTR_ASSET_FILE
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String ATTR_ASSET_ID
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String ATTR_GROUP_NAME
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String ATTR_VERSION
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: int BTA2DP_DOCK_TIMEOUT_MILLIS
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: int BT_HEADSET_CNCT_TIMEOUT_MS
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String CONNECT_INTENT_KEY_ADDRESS
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String CONNECT_INTENT_KEY_DEVICE_CLASS
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String CONNECT_INTENT_KEY_HAS_CAPTURE
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String CONNECT_INTENT_KEY_HAS_MIDI
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String CONNECT_INTENT_KEY_HAS_PLAYBACK
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String CONNECT_INTENT_KEY_PORT_NAME
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String CONNECT_INTENT_KEY_STATE
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: boolean DEBUG_AP
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: boolean DEBUG_DEVICES
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: boolean DEBUG_MODE
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: boolean DEBUG_VOL
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: int FLAG_ADJUST_VOLUME
+10-10 21:39:13.528 2196-2196/? I/Xposed:   Field: java.lang.String GROUP_TOUCH_SOUNDS
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int INDICATE_SYSTEM_READY_RETRY_DELAY_MS
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: [I MAX_STREAM_VOLUME
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: [I MIN_STREAM_VOLUME
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_BROADCAST_AUDIO_BECOMING_NOISY
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_BROADCAST_BT_CONNECTION_STATE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_BTA2DP_DOCK_TIMEOUT
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_BT_HEADSET_CNCT_FAILED
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_CHECK_MUSIC_ACTIVE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_CONFIGURE_SAFE_MEDIA_VOLUME
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_CONFIGURE_SAFE_MEDIA_VOLUME_FORCED
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_DYN_POLICY_MIX_STATE_UPDATE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_INDICATE_SYSTEM_READY
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_LOAD_SOUND_EFFECTS
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_MEDIA_SERVER_DIED
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_PERSIST_MASTER_VOLUME_MUTE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_PERSIST_MICROPHONE_MUTE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_PERSIST_MUSIC_ACTIVE_MS
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_PERSIST_RINGER_MODE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_PERSIST_SAFE_VOLUME_STATE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_PERSIST_VOLUME
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_PLAY_SOUND_EFFECT
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_REPORT_NEW_ROUTES
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_SET_A2DP_SINK_CONNECTION_STATE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_SET_A2DP_SRC_CONNECTION_STATE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_SET_ALL_VOLUMES
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_SET_DEVICE_VOLUME
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_SET_FORCE_BT_A2DP_USE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_SET_FORCE_USE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_SET_WIRED_DEVICE_CONNECTION_STATE
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_SYSTEM_READY
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_UNLOAD_SOUND_EFFECTS
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_UNMUTE_STREAM
+10-10 21:39:13.529 2196-2196/? I/Xposed:   Field: int MSG_USER_REMOVED
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int MSG_USER_SWITCHED
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int MUSIC_ACTIVE_POLL_PERIOD_MS
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int NUM_SOUNDPOOL_CHANNELS
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int PERSIST_DELAY
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: [Ljava.lang.String; RINGER_MODE_NAMES
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SAFE_MEDIA_VOLUME_ACTIVE
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SAFE_MEDIA_VOLUME_DISABLED
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SAFE_MEDIA_VOLUME_INACTIVE
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SAFE_MEDIA_VOLUME_NOT_CONFIGURED
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SAFE_VOLUME_CONFIGURE_TIMEOUT_MS
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: java.lang.String SAFE_VOLUME_FILE
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_MODE_MAX
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_MODE_RAW
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_MODE_UNDEFINED
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_MODE_VIRTUAL_CALL
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_MODE_VR
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_STATE_ACTIVATE_REQ
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_STATE_ACTIVE_EXTERNAL
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_STATE_ACTIVE_INTERNAL
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_STATE_DEACTIVATE_EXT_REQ
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_STATE_DEACTIVATE_REQ
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SCO_STATE_INACTIVE
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SENDMSG_NOOP
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SENDMSG_QUEUE
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SENDMSG_REPLACE
+10-10 21:39:13.530 2196-2196/? I/Xposed:   Field: int SOUND_EFFECTS_LOAD_TIMEOUT_MS
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: java.lang.String SOUND_EFFECTS_PATH
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: java.util.List SOUND_EFFECT_FILES
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: [I STREAM_VOLUME_OPS
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: java.lang.String TAG
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: java.lang.String TAG_ASSET
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: java.lang.String TAG_AUDIO_ASSETS
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: java.lang.String TAG_GROUP
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: int UNMUTE_STREAM_DELAY
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: int UNSAFE_VOLUME_MUSIC_ACTIVE_MS_MAX
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: java.lang.Long mLastDeviceConnectMsgTime
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: java.util.ArrayList mMediaPlayers
+10-10 21:39:13.531 2196-2196/? I/Xposed:   Field: int sSoundEffectVolumeDb
